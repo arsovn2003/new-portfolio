@@ -47,7 +47,7 @@ export default function Home({
               </Link>
             </li>
             <li className="linkedin">
-              <Link href={""}>
+              <Link href={"https://www.linkedin.com/in/nikola-arsov-1119b1261/"}>
                 <Image src={"/images/linkedIn.png"} alt="" className="img-fluid" width={30} height={30} />
               </Link>
             </li>
