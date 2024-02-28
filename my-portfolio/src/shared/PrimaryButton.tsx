@@ -13,7 +13,8 @@ const PrimaryButton = ({ value }: Props) => {
                 mt-4
                 text-xl
                 uppercase
-                tracking-wide	
+                tracking-wide
+                hover:bg-rose-900
                 "
             >{value}</button>
         </>

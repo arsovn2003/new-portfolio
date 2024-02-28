@@ -26,3 +26,54 @@ body {
   background-color: #171717;
 }
 
+.sticky_share_btn {
+  position: fixed;
+  left: 30px;
+  bottom: 30px;
+}
+
+.share-toggle,
+.fixed_share ul.listing>li {
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+ul.listing {
+  list-style: none;
+  display: none;
+}
+
+.fixed_share ul.listing>li {
+  margin-bottom: 10px;
+}
+
+.fixed_share ul.listing>li>a {
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.share-toggle:hover,
+.fixed_share ul.listing>li:hover {
+  transform: scale(1.1) rotate(360deg);
+}
+
+textarea {
+  width: 21%;
+  height: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  .download-btn {
+    rotate: -90deg;
+    margin-right: -50px;
+    margin-top: 50px;
+  }
+}
