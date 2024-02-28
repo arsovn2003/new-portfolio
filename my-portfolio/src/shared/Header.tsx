@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Image from 'next/image';
+import Link from "next/link";
 
 const Header = () => {
 
@@ -24,19 +25,29 @@ const Header = () => {
                     <div className={`${isMenuOpen ? "block" : "hidden"} w-full md:block md:w-auto`} id="navbar-default">
                         <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
                             <li>
-                                <a href="/" className="block py-2 px-3 text-white hover:text-rose-800 md:p-0" aria-current="page">Home</a>
+                                <Link href={"/"} className="block py-2 px-3 text-white hover:text-rose-800 md:p-0">
+                                    Home
+                                </Link>
                             </li>
                             <li>
-                                <a href="#about" className="block py-2 px-3 text-white hover:text-rose-800 md:p-0">About</a>
+                                <Link href={"#about"} className="block py-2 px-3 text-white hover:text-rose-800 md:p-0">
+                                    About
+                                </Link>
                             </li>
                             <li>
-                                <a href="#services" className="block py-2 px-3 text-white hover:text-rose-800 md:p-0">Services</a>
+                                <Link href={"#services"} className="block py-2 px-3 text-white hover:text-rose-800 md:p-0">
+                                    Services
+                                </Link>
                             </li>
                             <li>
-                                <a href="#projects" className="block py-2 px-3 text-white hover:text-rose-800 md:p-0">Projects</a>
+                                <Link href={"#projects"} className="block py-2 px-3 text-white hover:text-rose-800 md:p-0">
+                                    Projects
+                                </Link>
                             </li>
                             <li>
-                                <a href="#contact" className="block py-2 px-3 text-white hover:text-rose-800 md:p-0">Contact</a>
+                                <Link href={"#contact"} className="block py-2 px-3 text-white hover:text-rose-800 md:p-0">
+                                    Contact
+                                </Link>
                             </li>
                         </ul>
                     </div>
