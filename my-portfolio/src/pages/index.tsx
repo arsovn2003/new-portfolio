@@ -74,29 +74,29 @@ export default function Home({
 
 export const getStaticProps: GetStaticProps = async () => {
 
-  const bannerSection = await fetch("http://localhost:5001/banner");
-  const bannerData: BannerProps = await bannerSection.json();
-
-  const servicesSection = await fetch("http://localhost:5001/services");
-  const servicesData: ServicesProps = await servicesSection.json();
-
-  const aboutSection = await fetch("http://localhost:5001/about");
-  const aboutData: AboutProps = await aboutSection.json();
-
-  const projectsSection = await fetch("http://localhost:5001/projects");
-  const projectsData: ProjectsProps = await projectsSection.json();
-
-  // const bannerSection = await fetch("https://new-portfolio-json-server.vercel.app/banner");
+  // const bannerSection = await fetch("http://localhost:5001/banner");
   // const bannerData: BannerProps = await bannerSection.json();
 
-  // const servicesSection = await fetch("https://new-portfolio-json-server.vercel.app/services");
+  // const servicesSection = await fetch("http://localhost:5001/services");
   // const servicesData: ServicesProps = await servicesSection.json();
 
-  // const aboutSection = await fetch("https://new-portfolio-json-server.vercel.app/about");
+  // const aboutSection = await fetch("http://localhost:5001/about");
   // const aboutData: AboutProps = await aboutSection.json();
 
-  // const projectsSection = await fetch("https://new-portfolio-json-server.vercel.app/projects");
+  // const projectsSection = await fetch("http://localhost:5001/projects");
   // const projectsData: ProjectsProps = await projectsSection.json();
+
+  const bannerSection = await fetch("https://new-portfolio-json-server.vercel.app/banner");
+  const bannerData: BannerProps = await bannerSection.json();
+
+  const servicesSection = await fetch("https://new-portfolio-json-server.vercel.app/services");
+  const servicesData: ServicesProps = await servicesSection.json();
+
+  const aboutSection = await fetch("https://new-portfolio-json-server.vercel.app/about");
+  const aboutData: AboutProps = await aboutSection.json();
+
+  const projectsSection = await fetch("https://new-portfolio-json-server.vercel.app/projects");
+  const projectsData: ProjectsProps = await projectsSection.json();
 
 
 
