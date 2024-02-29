@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import personImage from '../../public/images/person2.png';
+import personImage from '../../public/images/person4.png';
 import PrimaryButton from '@/shared/PrimaryButton';
 import { BannerProps } from '@/type';
 import Link from 'next/link';
