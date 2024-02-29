@@ -25,8 +25,9 @@ export default function Home({
   aboutData,
   projectsData,
 }: Props) {
+
   return (
-    <>
+    <div className="scroll-smooth">
       <Banner bannerData={bannerData} />
       <Services servicesData={servicesData} />
       <About aboutData={aboutData} />
@@ -37,12 +38,12 @@ export default function Home({
         <div className="fixed_share">
           <ul className="listing">
             <li className="gitlab">
-              <Link href={""}>
+              <Link href={"https://git.brainster.co/Nikola.Arsov-FE13"}>
                 <Image src={"/images/gitlab.png"} alt="" className="img-fluid" width={30} height={30} />
               </Link>
             </li>
             <li className="github">
-              <Link href={""}>
+              <Link href={"https://github.com/arsovn2003"}>
                 <Image src={"/images/github.png"} alt="" className="img-fluid" width={30} height={30} />
               </Link>
             </li>
@@ -67,35 +68,35 @@ export default function Home({
           </span>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
 export const getStaticProps: GetStaticProps = async () => {
 
-  // const bannerSection = await fetch("http://localhost:5001/banner");
-  // const bannerData: BannerProps = await bannerSection.json();
-
-  // const servicesSection = await fetch("http://localhost:5001/services");
-  // const servicesData: ServicesProps = await servicesSection.json();
-
-  // const aboutSection = await fetch("http://localhost:5001/about");
-  // const aboutData: AboutProps = await aboutSection.json();
-
-  // const projectsSection = await fetch("http://localhost:5001/projects");
-  // const projectsData: ProjectsProps = await projectsSection.json();
-
-  const bannerSection = await fetch("https://new-portfolio-json-server.vercel.app/banner");
+  const bannerSection = await fetch("http://localhost:5001/banner");
   const bannerData: BannerProps = await bannerSection.json();
 
-  const servicesSection = await fetch("https://new-portfolio-json-server.vercel.app/services");
+  const servicesSection = await fetch("http://localhost:5001/services");
   const servicesData: ServicesProps = await servicesSection.json();
 
-  const aboutSection = await fetch("https://new-portfolio-json-server.vercel.app/about");
+  const aboutSection = await fetch("http://localhost:5001/about");
   const aboutData: AboutProps = await aboutSection.json();
 
-  const projectsSection = await fetch("https://new-portfolio-json-server.vercel.app/projects");
+  const projectsSection = await fetch("http://localhost:5001/projects");
   const projectsData: ProjectsProps = await projectsSection.json();
+
+  // const bannerSection = await fetch("https://new-portfolio-json-server.vercel.app/banner");
+  // const bannerData: BannerProps = await bannerSection.json();
+
+  // const servicesSection = await fetch("https://new-portfolio-json-server.vercel.app/services");
+  // const servicesData: ServicesProps = await servicesSection.json();
+
+  // const aboutSection = await fetch("https://new-portfolio-json-server.vercel.app/about");
+  // const aboutData: AboutProps = await aboutSection.json();
+
+  // const projectsSection = await fetch("https://new-portfolio-json-server.vercel.app/projects");
+  // const projectsData: ProjectsProps = await projectsSection.json();
 
 
 
@@ -107,4 +108,8 @@ export const getStaticProps: GetStaticProps = async () => {
       projectsData: projectsData,
     }
   };
+}
+
+function slide() {
+  throw new Error("Function not implemented.");
 }

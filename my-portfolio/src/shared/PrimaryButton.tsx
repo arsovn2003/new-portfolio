@@ -15,6 +15,7 @@ const PrimaryButton = ({ value }: Props) => {
                 uppercase
                 tracking-wide
                 hover:bg-rose-900
+                duration-300
                 "
             >{value}</button>
         </>

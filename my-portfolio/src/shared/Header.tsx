@@ -12,7 +12,7 @@ const Header = () => {
 
     return (
         <>
-            <nav className="text-white bg-neutral-800 dark:bg-neutral-900 fixed w-full top-0 ">
+            <nav className="text-white bg-neutral-800 dark:bg-neutral-900 fixed w-full top-0 z-50">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <Link href={"/"} className="flex items-center space-x-3 rtl:space-x-reverse">
                         <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Nikola Arsov</span>
@@ -25,27 +25,27 @@ const Header = () => {
                     <div className={`${isMenuOpen ? "block" : "hidden"} w-full md:block md:w-auto`} id="navbar-default">
                         <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
                             <li>
-                                <Link href={"/"} className="block py-2 px-3 text-white hover:text-rose-800 md:p-0">
+                                <Link href={"/"} className="block py-2 px-3 text-white duration-300 hover:text-rose-800 md:p-0">
                                     Home
                                 </Link>
                             </li>
                             <li>
-                                <Link href={"#about"} className="block py-2 px-3 text-white hover:text-rose-800 md:p-0">
+                                <Link href={"#about"} className="block py-2 px-3 text-white duration-300 hover:text-rose-800 md:p-0">
                                     About
                                 </Link>
                             </li>
                             <li>
-                                <Link href={"#services"} className="block py-2 px-3 text-white hover:text-rose-800 md:p-0">
+                                <Link href={"#services"} className="block py-2 px-3 text-white duration-300 hover:text-rose-800 md:p-0">
                                     Services
                                 </Link>
                             </li>
                             <li>
-                                <Link href={"#projects"} className="block py-2 px-3 text-white hover:text-rose-800 md:p-0">
+                                <Link href={"#projects"} className="block py-2 px-3 text-white duration-300 hover:text-rose-800 md:p-0">
                                     Projects
                                 </Link>
                             </li>
                             <li>
-                                <Link href={"#contact"} className="block py-2 px-3 text-white hover:text-rose-800 md:p-0">
+                                <Link href={"#contact"} className="block py-2 px-3 text-white duration-300 hover:text-rose-800 md:p-0">
                                     Contact
                                 </Link>
                             </li>
