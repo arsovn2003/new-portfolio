@@ -6,8 +6,10 @@ const Footer = () => {
                     <div>
                         <p>&copy; Nikola Arsov</p>
                     </div>
-                    <div>
-                        Created by Nikola Arsov
+                    <div className="text-center">
+                        <span>Skopje, North Macedonia</span>
+                        <br></br>
+                        <span>+389 71 243 457</span>
                     </div>
                 </div>
             </div>

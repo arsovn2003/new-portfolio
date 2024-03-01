@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Krik from '../../public/images/krik.png';
 import StreetArtists from '../../public/images/street-artists.png';
+import Portfolio from '../../public/images/portfolio.png';
 import Link from 'next/link';
 import { ProjectsProps } from '@/type';
 import PrimaryButton from '@/shared/PrimaryButton';
@@ -45,6 +46,22 @@ const Projects = ({ projectsData }: Props) => {
                                 <p className='text-gray-400 leading-8'>{projectsData.content2}</p>
                                 <div className="absolute left-0 bottom-0 p-4">
                                     <Link href={"https://github.com/arsovn2003/Street-Artists"} target="_blank">
+                                        <PrimaryButton value='Code' />
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="project-card bg-neutral-800 py-5 relative">
+                        <h1 className='text-center font-bold text-2xl'>{projectsData.name3}</h1>
+                        <div className="project-card-inner">
+                            <div className="project-card-front cursor-pointer">
+                                <Image src={Portfolio} alt="" />
+                            </div>
+                            <div className="project-card-back  pt-4 px-4 pb-20">
+                                <p className='text-gray-400 leading-8'>{projectsData.content3}</p>
+                                <div className="absolute left-0 bottom-0 p-4">
+                                    <Link href={"https://github.com/arsovn2003/new-portfolio"} target="_blank">
                                         <PrimaryButton value='Code' />
                                     </Link>
                                 </div>

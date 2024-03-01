@@ -8,9 +8,9 @@
         "subtitle1": "Responsive Web Design",
         "content1": "Elevate your website's visual appeal and functionality across devices with Responsive Web Design Optimization. Ensure seamless navigation and content adaptation for users on desktops, tablets, and mobiles. Deliver a consistent and engaging user experience, regardless of the screen size, and broaden your website's accessibility.",
         "subtitle2": "Performance Optimization",
-        "content2": "Turbocharge your website's performance with our Optimization service. Streamline loading times, enhance user interactions, and boost overall efficiency. Implement cutting-edge techniques such as lazy loading and code splitting to ensure swift page loads. Elevate user satisfaction, improve search engine rankings, and keep visitors engaged with a lightning-fast website.",
+        "content2": "Turbocharge your website's performance, streamline loading times, enhance user interactions, and boost overall efficiency. Implement cutting-edge techniques such as lazy loading and code splitting to ensure swift page loads. Elevate user satisfaction, improve search engine rankings, and keep visitors engaged with a lightning-fast website.",
         "subtitle3": "Custom Component",
-        "content3": "Unleash the power of tailored front-end solutions with our Custom Component Development service. Craft unique, reusable UI components designed to fit your project's specific needs. From custom navigation bars to interactive widgets, we create modular, maintainable elements that ensure consistency, brand cohesion, and efficiency across your web applications."
+        "content3": "Unleash the power of tailored front-end solutions with Custom Component Development. Craft unique, reusable UI components designed to fit your project's specific needs. From custom navigation bars to interactive widgets, I create modular, maintainable elements that ensure consistency, brand cohesion, and efficiency across your web application."
     },
     "about": {
         "value1": "1",
@@ -27,6 +27,8 @@
         "name1": "Krik",
         "content1": "This one, the third and final real project from Academy, which we made it for Krik, their old one was hacked and ruined by hackers, and finally i am happy that i can help them with this new project, which was really interesting and given better look and experience for how one Project goes from zero to finish to be builded and deployed successfully, the hard work of this one was more interesting and fun, i really enjoyed while making this project, the project was made using Next.js, we had options to do the project with which framework we want, but for me Next.js looks more attractive. Krik is nongovernmental organization and nonprofit organization for young peoples, volunteers.",
         "name2": "Street Artists",
-        "content2": "The second project of Academy, where i used more of JavaScript, it's an platform for Street Artists, where they can post, put their new arts on it, editing the same arts, remove them, put them in auction and someone who look for it, he can place bid for the art. It was interesting while doing this project, and I practiced more of JavaScript. The project was very helpful about understand the algorithm of often tasks in bigger applications."
+        "content2": "The second project of Academy, where i used more of JavaScript, it's an platform for Street Artists, where they can post, put their new arts on it, editing the same arts, remove them, put them in auction and someone who look for it, he can place bid for the art. It was interesting while doing this project, and I practiced more of JavaScript. The project was very helpful about understand the algorithm of often tasks in bigger applications.",
+        "name3": "Portfolio",
+        "content3": "My portfolio, for those who want to get to know me better with my experience that I offer, and in an opportunity to work together."
     }
 }
