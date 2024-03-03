@@ -30,4 +30,6 @@ export interface ProjectsProps {
         content1: string;
         name2: string;
         content2: string;
+        name3: string;
+        content3: string;
 }

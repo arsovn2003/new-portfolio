@@ -31,6 +31,9 @@ const DownloadButton = () => {
                 fixed
                 end-0
                 hover:bg-rose-900
+                duration-300
+                drop-shadow-md
+                z-50
                 "
                 onClick={handleDownload}
             >Download CV</button>

@@ -25,8 +25,9 @@ export default function Home({
   aboutData,
   projectsData,
 }: Props) {
+
   return (
-    <>
+    <div className="scroll-smooth">
       <Banner bannerData={bannerData} />
       <Services servicesData={servicesData} />
       <About aboutData={aboutData} />
@@ -37,12 +38,12 @@ export default function Home({
         <div className="fixed_share">
           <ul className="listing">
             <li className="gitlab">
-              <Link href={""}>
+              <Link href={"https://git.brainster.co/Nikola.Arsov-FE13"}>
                 <Image src={"/images/gitlab.png"} alt="" className="img-fluid" width={30} height={30} />
               </Link>
             </li>
             <li className="github">
-              <Link href={""}>
+              <Link href={"https://github.com/arsovn2003"}>
                 <Image src={"/images/github.png"} alt="" className="img-fluid" width={30} height={30} />
               </Link>
             </li>
@@ -67,7 +68,7 @@ export default function Home({
           </span>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
@@ -107,4 +108,8 @@ export const getStaticProps: GetStaticProps = async () => {
       projectsData: projectsData,
     }
   };
+}
+
+function slide() {
+  throw new Error("Function not implemented.");
 }
