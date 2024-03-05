@@ -6,7 +6,7 @@ const DownloadButton = () => {
         const link = document.createElement('a');
         link.href = pdfUrl;
 
-        link.download = 'CV.pdf';
+        link.download = 'Nikola Arsov - CV.pdf';
 
         document.body.appendChild(link);
 
